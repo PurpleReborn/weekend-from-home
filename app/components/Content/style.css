@@ -1,0 +1,18 @@
+.content {
+  margin-top: -113px;
+}
+
+.rec .rec-item-wrapper {
+  width: fit-content !important;
+}
+
+.rec .rec-slider-container {
+  margin: 0px 25px 0px 25px !important;
+  padding-left: 25px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .rec .rec-slider-container {
+    padding-left: 0 !important;
+  }
+}

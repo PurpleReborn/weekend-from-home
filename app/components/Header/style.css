@@ -1,0 +1,35 @@
+.lego {
+  transition: transform 0.3s ease;
+}
+
+.lego:hover {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.bg-header {
+  background-image: url('/assets/svg/SVGHeader.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.top-header {
+  background-image: url('/assets/svg/header/SVGBg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
